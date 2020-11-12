@@ -41,8 +41,8 @@ a{
   background-color:transparent !important;
 }
 header{
-
   height:500px;
+  min-width:1400px;
   background-image:url("../img/jumbotron.png") ;
   background-size:cover;
   background-repeat: no-repeat;
@@ -51,6 +51,10 @@ header{
  nav{
   height:50px;
 
+}
+.gettingstarted img{
+  width:250px;
+  height:100%;
 }
 
 
@@ -107,7 +111,7 @@ margin:0 5%;
 footer{
   background-color:rgb(38,56,73);
   color:#fff;
-  height:400px;
+  height:320px;
 }
 footer .col-12{
   height:20px;
@@ -200,7 +204,7 @@ top:-20px;
 
 main .col-2{
   text-align: center;
-  height:230px;
+  height:300px;
 }
 .content h6{
   font-size:20px;
@@ -232,6 +236,13 @@ padding: 35px 0;
 .sponsor{
 margin-top:20px;
 }
+
+.sponsor img{
+  margin-left:100px;
+}
+.sponsor h2{
+  margin:10px 0;
+}
 .sponsor .col-4,.sponsor .col-8{
   padding-left:100px;
 }
@@ -245,6 +256,9 @@ margin-top:20px;
 }
 .gettingstarted p{
   margin: 20px 0;
+}
+.gettingstarted img{
+  margin-left:100px;
 }
 footer .btn{
   border-radius:2px;
@@ -277,4 +291,35 @@ main .col-2 h6{
  .gradient .col-3
 {
   border:1px solid #fff;
+}
+.gradient {
+  color:#fff;
+
+}
+.gradient i{
+  padding-top: 10px;
+  font-size: 30px;
+
+}
+.gradient h4{
+  font-size:28px;
+
+}
+.gradient h6{
+  font-size:16px;
+  padding-bottom: 20px;
+  font-weight: lighter;
+
+}
+.gradient p{
+  font-size:10px;
+
+}
+
+
+
+.iconesocial i{padding-right:30px;}
+.loghetto{width:80px;
+  height:100%;
+  filter: invert(100%);
 }
