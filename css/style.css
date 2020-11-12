@@ -69,6 +69,7 @@ width:400px;}
   text-transform: uppercase;
   font-style: bold;
 }
+
 .col-8{
   width:80%;
 }
@@ -197,4 +198,10 @@ width:90%;
 main .col-2 .button
 {position:relative;
  top:20px;
+}
+
+.gradient{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 4%, rgba(9,121,96,0.8533788515406162) 100%);
+text-align: center;
 }
