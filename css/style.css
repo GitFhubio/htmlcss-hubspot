@@ -80,6 +80,9 @@ width:400px;}
 .col-3{
   width:25%;
 }
+.col-6{
+  width:50%;
+}
 
 .col-12{
   width:100%;
@@ -93,6 +96,7 @@ margin:0 5%;
 footer{
   background-color:rgb(38,56,73);
   color:#fff;
+  height:400px;
 }
 footer .col-12{
   height:20px;
@@ -204,4 +208,11 @@ main .col-2 .button
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 4%, rgba(9,121,96,0.8533788515406162) 100%);
 text-align: center;
+}
+
+.sponsor .col-4,.sponsor .col-8{
+  padding-left:100px;
+}
+.gettingstarted .col-6,.sponsor .col-6{
+  padding-left:70px;
 }
