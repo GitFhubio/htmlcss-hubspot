@@ -42,7 +42,7 @@ header{
   background-repeat: no-repeat;
   background-position: bottom right;
 }
- nav{ width:33%;
+ nav{
   height:50px;
 
 }
@@ -96,4 +96,21 @@ footer .col-12 li,footer .col-4.fr li{
 footer .button{
   color:rgb(75,107,81);
   background-color: #ccc;
+}
+
+.container.clearfix:first-child{
+background-color:rgb(241,247,252);
+height:50px;
+border-bottom:3px solid grey;
+}
+.container.clearfix:first-child li,.container.clearfix:nth-child(2) {
+line-height: 50px;
+}
+.container.clearfix:nth-child(2){
+
+height:50px;
+}
+
+nav img{
+  margin-top: 7px;
 }
