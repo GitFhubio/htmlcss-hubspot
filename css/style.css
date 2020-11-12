@@ -45,12 +45,16 @@ width:400px;}
   width:20%;
 }
 
+.col-3{
+  width:25%;
+background-color:red;
+}
+
 .col-12{
   width:100%;
 }
 .col-2{
 width:30%;
-height:300px;
 background-color: green;
 }
 .col-2:nth-child(2){
