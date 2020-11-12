@@ -3,6 +3,9 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+body{
+font-family: 'Roboto', sans-serif;
+}
 .clearfix::after{
   clear:both;
   display:table;
@@ -113,4 +116,19 @@ height:50px;
 
 nav img{
   margin-top: 7px;
+}
+
+.jumbotron h4{
+  margin-top: 20px;
+margin-bottom: 20px;
+}
+.jumbotron p{
+margin-top: 30px;
+}
+.jumbotron h1{
+  font-size: 50px;
+}
+.jumbotron{
+ padding-top:100px;
+ width:400px;
 }
