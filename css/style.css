@@ -173,9 +173,19 @@ top:-20px;
 
 main .col-2{
   text-align: center;
+  height:230px;
 }
 
 main .col-2 h6
 {
 text-align: left;
+}
+main .col-2 hr
+{
+margin:0 auto;
+width:90%;
+}
+main .col-2 .button
+{position:relative;
+ top:20px;
 }
