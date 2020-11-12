@@ -29,7 +29,7 @@ a{
 
 .button{
   border-radius:2px;
-  background-color: orange;
+  background-color: darkorange;
   padding:10px 5px;
 }
 
@@ -37,7 +37,7 @@ a{
   border-radius:2px;
   padding:10px 5px;
   color:orange;
-  border:1px solid orange;
+  border:1px solid darkorange;
   background-color:transparent !important;
 }
 header{
@@ -243,4 +243,10 @@ padding:20px 0 0 15px;
 }
 footer .col-4.fl li img{
 margin-top:20px;
+}
+main i{
+  color:darkorange;
+}
+main h6{
+  padding-left: 15px;
 }
