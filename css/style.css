@@ -62,3 +62,11 @@ margin:0 5%;
 height:300px;
 background-color: red;
 }
+footer .col-12{
+  height:20px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+footer .col-12 li,footer .col-4.fr li{
+  display:inline-block;
+}
