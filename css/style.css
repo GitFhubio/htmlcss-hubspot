@@ -59,6 +59,15 @@ width:400px;}
 .particular{
   width:100%;
   height:40px;
+  line-height: 40px;
+}
+.particular hr{
+  margin-top:25px;
+}
+.particular .col-4{
+  text-align: left;
+  text-transform: uppercase;
+  font-style: bold;
 }
 .col-8{
   width:80%;
