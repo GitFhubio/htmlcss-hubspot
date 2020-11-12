@@ -79,7 +79,6 @@ width:30%;
 }
 .col-2:nth-child(2){
 margin:0 5%;
-height:300px;
 }
 footer{
   background-color:rgb(38,56,73);
@@ -170,4 +169,13 @@ main .col-4{
 main .button{
 position:relative;
 top:-20px;
+}
+
+main .col-2{
+  text-align: center;
+}
+
+main .col-2 h6
+{
+text-align: left;
 }
