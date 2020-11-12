@@ -288,38 +288,46 @@ main .col-2 h6{
   padding-left: 15px;
 }
 
- .gradient .col-3
-{
-  border:1px solid #fff;
-}
 .gradient {
   color:#fff;
-
 }
 .gradient i{
   padding-top: 10px;
   font-size: 30px;
-
 }
 .gradient h4{
   font-size:28px;
-
 }
 .gradient h6{
   font-size:16px;
   padding-bottom: 20px;
   font-weight: lighter;
-
 }
 .gradient p{
   font-size:10px;
-
 }
-
-
-
 .iconesocial i{padding-right:30px;}
 .loghetto{width:80px;
   height:100%;
   filter: invert(100%);
+}
+.gradient .col-3{
+  height:120px;
+}
+.gradient .col-3{
+height:140px;
+/* border:1px solid #fff; */
+}
+.gradient .col-3:nth-child(1),.col-3:nth-child(2),.col-3:nth-child(3)
+{
+  border-right:1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.gradient .col-3:nth-child(5),.col-3:nth-child(6),.col-3:nth-child(7)
+{
+  border-right:1px solid #fff;
+}
+.gradient .col-3:last-child
+{
+  border-top:1px solid #fff;
 }
