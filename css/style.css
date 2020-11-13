@@ -1,8 +1,10 @@
+/* reset */
 *{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+/* regole generali */
 body{
 font-family: 'Roboto', sans-serif;
 }
@@ -22,9 +24,28 @@ a{
 }
 .fr{float:right;
 }
+
 .container{
   width:1200px;
   margin:0 auto;
+}
+.col-8{
+  width:80%;
+}
+.col-4{
+  width:20%;
+}
+.col-3{
+  width:25%;
+}
+.col-6{
+  width:50%;
+}
+.col-12{
+  width:100%;
+}
+.col-2{
+width:30%;
 }
 
 .button{
@@ -88,24 +109,7 @@ line-height: 140%;
   text-transform: uppercase;
   font-style: bold;
 }
-.col-8{
-  width:80%;
-}
-.col-4{
-  width:20%;
-}
-.col-3{
-  width:25%;
-}
-.col-6{
-  width:50%;
-}
-.col-12{
-  width:100%;
-}
-.col-2{
-width:30%;
-}
+
 .col-2:nth-child(2){
 margin:0 5%;
 }
@@ -131,26 +135,22 @@ line-height: 75px;
 height:75px;
 }
 
- .nav nav img{
+.nav nav img{
   margin-top: 7px;
 }
-
-.jumbotron h4{
-  margin-top: 20px;
-margin-bottom: 20px;
-
-}
-.jumbotron p{
+.jumbotron p,.gettingstarted p{
 margin-top: 30px;
-font-size: 14px;
+margin-bottom: 40px;
+font-size: 18px;
+line-height: 170%;
 }
 .jumbotron h1{
   font-size: 55px;
   font-weight: bolder;
   color: rgb(39, 54, 73);
 }
-.jumbotron .button{
-
+.jumbotron .button , .gettingstarted .button{
+padding:20px 30px;
 }
 .jumbotron{
  padding-top:100px;
@@ -163,7 +163,6 @@ font-size: 14px;
   border-top:3px solid rgb(33,49,67);
   border-bottom:3px solid rgb(33,49,67);
 }
-
 main{
   margin:0 auto;
   width:100%;
@@ -180,7 +179,6 @@ main{
   font-size: 35px;
   font-weight: bold;
 }
-
 .hubs{
 width:105px;
 height:105px;
@@ -221,8 +219,7 @@ main .col-12.content .col-8{
   padding-right: 20px;
   padding-top: 40px;
 }
-
-/* ricorda */
+/* grandezza fissa */
 main .col-12.content
 { height:290px;
   margin: 30px 0;
@@ -235,13 +232,12 @@ main .content>.col-4{
   text-align: center;
   padding:40px 0;
 }
-
 main .col-4 .button{
 position:relative;
 padding:20px 20px;
 top:10px;
 }
-/* ricordA */
+/* grandezza fissa */
 main .hub .col-2{
   text-align: center;
   height:580px;
@@ -289,11 +285,9 @@ padding: 35px 0;
 }
 .gradient h4,.gradient p{padding-bottom: 15px;
 }
-
 .sponsor{
 margin-top:20px;
 }
-
 .sponsor img{
   margin-left:100px;
 }
@@ -304,50 +298,34 @@ margin-top:20px;
 .sponsor p{
 line-height:170%;
 font-size: 22px;
-
 }
 .sponsor .col-6:first-child{padding-left: 100px;
 padding-right: 150px;}
-
 .sponsor .col-6:nth-child(2){
   padding-left:0px;
 }
 .sponsor .col-6{
   padding-left:70px;
 }
-
 .gettingstarted h2{
  padding-top:40px;
  font-size: 40px;
-
 }
-
-.gettingstarted p{
-  margin: 20px 0;
-  font-size: 18px;
-  line-height: 170%;
-  margin:40px 0;
-}
-
-.gettingstarted .advice{
+.gettingstarted .advice , .jumbotron .advice{
   margin-top: 40px;
   font-size: 14px;
 }
-
 .gettingstarted .woman{
 width: auto;
 height: 400px;
 margin-left:350px;
-
 }
-
 main i{
   color:rgb(231,92,70);
 }
 main .col-2 h6{
   padding-left: 15px;
 }
-
 .gradient {
   color:#fff;
 }
@@ -424,18 +402,15 @@ footer .col-3 ul li:first-child
   font-weight: bold;
   padding: 15px 0;
 }
-
 footer .col-4.fr li{
 padding:20px 0 0 15px;
 }
 footer .col-4.fl li img{
 margin-top:20px;
 }
-
 .lang{
   padding-top: 80px;
 }
-
 .lang li{
   padding:0 10px;
 }
