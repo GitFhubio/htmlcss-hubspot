@@ -289,11 +289,13 @@ padding: 35px 0;
 margin-top:20px;
 }
 .sponsor img{
-  margin-left:100px;
+  margin-left:30px;
+  width:600px;
+  height:auto;
 }
 .sponsor h2{
   font-size:50px;
-  margin:10px 0;
+  margin:30px 0;
 }
 .sponsor p{
 line-height:170%;
@@ -318,7 +320,7 @@ padding-right: 150px;}
 .gettingstarted .woman{
 width: auto;
 height: 400px;
-margin-left:350px;
+margin-left:280px;
 }
 main i{
   color:rgb(231,92,70);
