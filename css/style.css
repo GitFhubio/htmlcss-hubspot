@@ -52,6 +52,7 @@ width:30%;
   border-radius:8px;
   background-color: rgb(231,92,70);
   padding:10px 15px;
+  font-weight: bold;
 }
 
 .transparent {
@@ -352,8 +353,8 @@ main .col-2 h6{
 .gradient p{
   font-size:10px;
 }
-.iconesocial i{padding-right:35px;
-padding-top:10px;}
+.iconesocial i{padding-right:30px;
+padding-top:20px;}
 
 .gradient .col-3{
   height:120px;
@@ -391,23 +392,26 @@ footer .col-12 li,footer .col-4.fr li{
 }
 
 footer .btn{
-  border-radius:2px;
-  padding:10px 5px;
-  color:rgb(75,107,81);
+  border-radius:8px;
+  padding:12px 8px;
+  color:rgb(38,56,73);
   background-color: #ccc;
-  line-height: 50px;
+  font-size: 14px;
+  font-weight: 500;
 }
+
 footer .col-3 ul li
 {
-  line-height: 200%;
-  font-weight: lighter;
+  line-height: 260%;
 }
+
 footer .col-3 ul li:first-child
 {
   font-size:18px;
   font-weight: bold;
   padding: 15px 0;
 }
+
 footer .col-4.fr li{
 padding:20px 0 0 15px;
 }
