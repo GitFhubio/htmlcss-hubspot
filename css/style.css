@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 /* regole generali */
 body{
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 .clearfix::after{
   clear:both;
@@ -63,6 +63,7 @@ width:30%;
 }
 header{
   position:relative;
+  min-width: 1200px;
   height:600px;
   background-image:url("../img/jumbotron.png") ;
   background-color:#fff4ef;
@@ -190,9 +191,10 @@ height:105px;
   font-weight:600;
 }
 .hub p{
-  font-size: 18px;
+  font-size: 16px;
+  padding-top: 10px;
   padding-bottom:50px;
-  line-height: 130%;
+  line-height: 170%;
 }
 .hub .col-2{
   padding:20px;
@@ -350,7 +352,8 @@ main .col-2 h6{
 .gradient p{
   font-size:10px;
 }
-.iconesocial i{padding-right:30px;}
+.iconesocial i{padding-right:35px;
+padding-top:10px;}
 
 .gradient .col-3{
   height:120px;
