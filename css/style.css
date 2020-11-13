@@ -47,6 +47,9 @@ a{
 .col-2{
 width:30%;
 }
+/* le grandezze non sono esatte in ottica ragionamento a griglie/classi bootstrap */
+ /* (la mia .col-3 sarebbe una col-4) ma il ragionamento dovrebbe essere esatto */
+/* dalla prossima eviterò ambiguità */
 
 .button{
   border-radius:8px;
@@ -382,9 +385,10 @@ height:140px;
 }
 
 footer{
+  margin-top: 20px;
   background-color:rgb(38,56,73);
   color:#fff;
-  height:590px;
+  height:600px;
 }
 footer .col-12{
   height:120px;
@@ -436,3 +440,6 @@ margin-top:20px;
    height: 50px;
   filter: invert(100%);
 }
+
+/* Riflessioni finali:scrivendo classi di stile all'inizio avrei evitato ripetizioni nel codice
+il css è compattabile ma per come ho scritto il codice html evito di fare guai */
