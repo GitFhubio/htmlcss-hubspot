@@ -198,7 +198,7 @@ height:105px;
 }
 .hub p{
   font-size: 18px;
-  padding-bottom:20px;
+  padding-bottom:50px;
   line-height: 130%;
 }
 .hub .col-2{
@@ -214,7 +214,8 @@ height:105px;
 .hub .col-2 h5{
 text-transform: uppercase;
 font-size: 18px;
-padding:20px 0;
+padding-top:30px;
+padding-bottom:20px;
 
 }
 main .col-2,main .col-12
@@ -245,7 +246,7 @@ top:5px;
 /* ricordA */
 main .hub .col-2{
   text-align: center;
-  height:480px;
+  height:580px;
 }
 .content h3{
 font-size: 26px;
@@ -277,7 +278,7 @@ width:90%;
 }
 main .col-2 .button
 {position:relative;
- top:20px;
+ top:50px;
 }
 
 .gradient{
@@ -296,24 +297,46 @@ margin-top:20px;
   margin-left:100px;
 }
 .sponsor h2{
+  font-size:50px;
   margin:10px 0;
 }
-.sponsor .col-4,.sponsor .col-8{
-  padding-left:100px;
+.sponsor p{
+line-height:170%;
+font-size: 22px;
+
 }
-.gettingstarted .col-6,.sponsor .col-6{
+.sponsor .col-6:first-child{padding-left: 100px;
+padding-right: 150px;}
+
+.sponsor .col-6:nth-child(2){
+  padding-left:0px;
+}
+.sponsor .col-6{
   padding-left:70px;
 }
 
 .gettingstarted h2{
  padding-top:40px;
+ font-size: 40px;
 
 }
 .gettingstarted p{
   margin: 20px 0;
+  font-size: 18px;
+  line-height: 170%;
+  margin:40px 0;
 }
-.gettingstarted img{
-  margin-left:100px;
+
+.gettingstarted .advice{
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.gettingstarted .woman{
+width: auto;
+height: 400px;
+margin-left:350px;
+
 }
 footer .btn{
   border-radius:2px;
@@ -322,13 +345,18 @@ footer .btn{
   background-color: #ccc;
   line-height: 50px;
 }
-
+footer .col-3 ul li
+{
+  line-height: 200%;
+  font-weight: lighter;
+}
 footer .col-3 ul li:first-child
 {
   font-size:18px;
   font-weight: bold;
   padding: 15px 0;
 }
+
 
 footer .col-4.fr li{
 padding:20px 0 0 15px;
