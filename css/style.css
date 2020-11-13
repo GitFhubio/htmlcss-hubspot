@@ -41,12 +41,12 @@ a{
   background-color:transparent !important;
 }
 header{
-  height:500px;
+  height:630px;
   min-width:1400px;
   background-image:url("../img/jumbotron.png") ;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: bottom -90px right 0;
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position:top 0 left 0 right -70px;
 }
  nav{
   height:50px;
