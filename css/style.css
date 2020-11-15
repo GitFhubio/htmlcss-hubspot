@@ -294,6 +294,8 @@ main .col-2 .button
 background-image: linear-gradient(to right, rgb(60,158,168) , rgb(70,177,149));
 text-align: center;
 padding: 35px 0;
+color:#fff;
+
 }
 .gradient h4,.gradient p{padding-bottom: 15px;
 }
@@ -340,9 +342,7 @@ main i{
 main .col-2 h6{
   padding-left: 15px;
 }
-.gradient {
-  color:#fff;
-}
+
 .gradient img{
   padding-top: 10px;
   font-size: 30px;
@@ -364,9 +364,6 @@ main .col-2 h6{
 .iconesocial i{padding-right:30px;
 padding-top:20px;}
 
-.gradient .col-3{
-  height:120px;
-}
 .gradient .col-3{
 height:140px;
 }
