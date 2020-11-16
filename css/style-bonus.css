@@ -112,7 +112,6 @@ margin-left:10px;
     float:right;
     width: 65%;
     height: 2px;
-    /* line-height 20px - 2px = 18px */
     margin-top: 9px;
     background-color: #899397;
 } 
@@ -131,9 +130,7 @@ height:75px;
 border-bottom:3px solid grey;
 background-color:rgb(241,247,251);}
 .nav.container.clearfix:first-child{
-
 height:75px;
-
 }
 
 .logo{
@@ -229,7 +226,7 @@ padding-bottom:20px;
     content: '';
     display:inherit;
     width:90%;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #899397;
     margin:60px auto 35px auto;
 
 } 
