@@ -308,9 +308,11 @@ color:#fff;
 .plus::after{
 content:"+";
 display:inline-block;
-font-size: 0.6em;
+font-size: 0.7em;
+font-weight: lighter;
 position:relative;
 bottom:2px;
+left:2px;
 }
 
 .sponsor{

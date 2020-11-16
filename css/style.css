@@ -355,9 +355,11 @@ main .col-2 h6{
   font-size: 26px;
 }
 .gradient span{
-  font-size: 0.5em;
+  font-size: 0.7em;
   position:relative;
-  bottom:4px;
+  bottom:2px;
+  left:2px;
+  font-weight: lighter;
 }
 .gradient h6{
   font-size:16px;
