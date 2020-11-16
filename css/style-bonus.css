@@ -116,7 +116,6 @@ margin-left:10px;
     margin-top: 9px;
     background-color: #899397;
 } 
-
 .content .col-4 h3{
   text-align: left;
   text-transform: uppercase;
@@ -208,7 +207,6 @@ height:105px;
 .hub p{
   font-size: 16px;
   padding-top: 10px;
-  padding-bottom:50px;
   line-height: 170%;
 }
 .hub .col-2{
@@ -224,10 +222,17 @@ height:105px;
 .hub .col-2 h5{
 text-transform: uppercase;
 font-size: 18px;
-padding-top:30px;
 padding-bottom:20px;
 
 }
+.line::before {
+    content: '';
+    display:inherit;
+    width:90%;
+    border-bottom: 1px solid #000;
+    margin:60px auto 35px auto;
+
+} 
 main .col-2,main .col-12
 {
   background-color: #fff;
