@@ -1,0 +1,99 @@
+/* reset */
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+/* regole generali */
+body{ font-family: Arial sans-serif;
+  font-size:16px;
+}
+
+.big-text{font-size:70px;}
+.med-text{font-size:40px;}
+.normal-text{font-size:20px;}
+.small-text{font-size:14px;}
+
+ul{list-style: none;}
+
+a{text-decoration:none;
+  color:#fff;}
+
+.w100{min-width: 1200px;}
+
+  .container{
+    width:1200px;
+    margin:0 auto;}
+
+.clearfix::after{
+  clear:both;
+  display:table;
+  content:"";
+}
+.fl{float:left;}
+.fr{float:right;}
+.col-2{width:16.666%;}
+.col-3{width:25%;}
+.col-4{width:33.333%;}
+.col-5{width:41.666%;}
+.col-6{width:50%;}
+.col-7{width:58.333%;}
+.col-8{width:66.666%;}
+.col-9{width:75%;}
+.col-10{width:83.333%;}
+.col-12{width:100%;}
+[class*="col-"]{;}
+
+.line::after{
+content:"";
+display:inherit;
+width:%;
+border-bottom:1px solid #000;
+margin:20px auto;
+}
+.button {
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  min-width: 100px;
+  padding: 0 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+/* codice */
+.container{
+  background-color:blue;
+  height:150px;
+}
+h2{
+  font-size: 50px;
+      display: table;
+  line-height:80px;
+  background-color: red;
+}
+span{font-size: 0.3em;
+  font-weight:lighter;
+      display: table-cell;
+  vertical-align: middle;
+
+}
+/* qui ho h2 con dentro lo span ,do line height all h2 vertical align allo span e si centra */
+/* il vertical align allinea sempre un pò a modo suo verticalmente */
+/* se però uso display table a padre e display table cell al figlio me lo allinea giusto */
+
+h3{
+  line-height:80px;
+  background-color: yellow;
+}
+/* ora passiamo al caso after */
+.plus::after{
+  content:"TESTO";
+ font-size: 2em;
+  float:left;
+}
+
+/* la furbata è mettere nel content il testo e il più che flotta alla sx del più
+(se mettessi nel content il più e float right me lo manderebbe in fondo a dx) */
