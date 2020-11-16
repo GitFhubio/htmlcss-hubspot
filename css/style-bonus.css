@@ -234,14 +234,13 @@ main .col-12.content .col-8{
   padding-top: 40px;
   padding-right:100px;
 }
-/* grandezza fissa */
+/* h fissa */
 main .col-12.content
 { height:290px;
   margin: 30px 0;
   padding:10px;
   border-radius: 5px;
-  border: 2px solid #ccc;
-  box-shadow: 0 0 2px 2px #ccc;
+  box-shadow: 0 0 2px 2px #d0d7db;
 }
 main .content>.col-4{
   text-align: center;
@@ -252,13 +251,12 @@ position:relative;
 padding:20px 20px;
 top:10px;
 }
-/* grandezza fissa */
+/* h fissa */
 main .hub .col-2{
   text-align: center;
   height:590px;
   border-radius: 5px;
-  border: 2px solid #ccc;
-  box-shadow: 0 0 2px 2px #ccc;
+  box-shadow: 0 0 3px 3px #d0d7db;
 }
 .content h3{
 font-size: 26px;
@@ -279,28 +277,23 @@ margin-right:5px;
   margin-top: 20px;
   margin-bottom:10px;
 }
-
 main .col-2 .button
 {position:relative;
  top:50px;
 }
-
 .gradient{
 background-image: linear-gradient(to right, rgb(60,158,168) , rgb(70,177,149));
 text-align: center;
 padding: 35px 0;
 color:#fff;
-
 }
-/* modo originale di fare il più centrato */
-/* trasformo l'h2 in table che centro con margin left/right auto,il plus after-figlio
+/* modo originale di fare il più centrato: trasformo l'h2 in table che centro con margin left/right auto,il plus after-figlio
 lo trasformo in table cell e gli do il vertical align middle */
 .gradient h2{
   line-height: 50px;
   display: table;
   margin:auto;
 }
-
 .plus::after{
   content:"+";
   display:table-cell;
@@ -349,7 +342,6 @@ width: auto;
 height: 400px;
 position:absolute;
 right:0;
-
 }
 main i{
   color:rgb(231,92,70);
@@ -407,7 +399,6 @@ footer .col-12 li,footer .col-4.fr li{
   display:inline-block;
   color:#fff;
 }
-
 footer .btn{
   border-radius:8px;
   padding:12px 8px;
@@ -416,19 +407,16 @@ footer .btn{
   font-size: 14px;
   font-weight: 500;
 }
-
 footer .col-3 ul li
 {
   line-height: 260%;
 }
-
 footer .col-3 ul li:first-child
 {
   font-size:18px;
   font-weight: bold;
   padding: 15px 0;
 }
-
 footer .col-4.fr li{
 padding:20px 0 0 15px;
 }
