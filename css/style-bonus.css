@@ -316,7 +316,7 @@ bottom:2px;
 margin-top:20px;
 }
 .sponsor img{
-  margin-left:30px;
+  padding-left:10px;
   width:600px;
   height:auto;
 }
@@ -328,7 +328,6 @@ margin-top:20px;
 line-height:170%;
 font-size: 22px;
 }
-
 .sponsor .col-6:nth-child(2){
   padding-left:0px;
 }
@@ -347,12 +346,15 @@ font-size: 22px;
   margin-top: 40px;
   font-size: 14px;
 }
+.gettingstarted>.container.clearfix{
+  position:relative;
+}
 .gettingstarted .woman{
 width: auto;
 height: 400px;
-margin-left:150px;
-
-
+position:absolute;
+right:0;
+}
 }
 main i{
   color:rgb(231,92,70);

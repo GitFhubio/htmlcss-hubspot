@@ -290,14 +290,12 @@ background-image: linear-gradient(to right, rgb(60,158,168) , rgb(70,177,149));
 text-align: center;
 padding: 35px 0;
 color:#fff;
-
 }
-
 .sponsor{
 margin-top:20px;
 }
 .sponsor img{
-  margin-left:30px;
+  padding-left:10px;
   width:600px;
   height:auto;
 }
@@ -309,7 +307,6 @@ margin-top:20px;
 line-height:170%;
 font-size: 22px;
 }
-
 .sponsor .col-6:nth-child(2){
   padding-left:0px;
 }
@@ -328,12 +325,14 @@ font-size: 22px;
   margin-top: 40px;
   font-size: 14px;
 }
+.gettingstarted>.container.clearfix{
+  position:relative;
+}
 .gettingstarted .woman{
 width: auto;
 height: 400px;
-margin-left:150px;
-
-
+position:absolute;
+right:0;
 }
 main i{
   color:rgb(231,92,70);
@@ -442,6 +441,3 @@ margin-top:20px;
    height: 50px;
   filter: invert(100%);
 }
-
-/* Riflessioni finali:scrivendo classi di stile all'inizio avrei evitato ripetizioni nel codice
-il css è compattabile ma per come ho scritto il codice html evito di fare guai */
