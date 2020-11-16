@@ -292,8 +292,7 @@ padding: 35px 0;
 color:#fff;
 
 }
-.gradient h4,.gradient p{padding-bottom: 15px;
-}
+
 .sponsor{
 margin-top:20px;
 }
@@ -342,7 +341,8 @@ main i{
 main .col-2 h6{
   padding-left: 15px;
 }
-
+.gradient h4{padding-bottom: 15px;
+}
 .gradient img{
   padding-top: 10px;
   font-size: 30px;
@@ -351,7 +351,13 @@ main .col-2 h6{
   font-size:28px;
 }
 .gradient h2{
-  line-height: 50px;
+  padding: 10px 0;
+  font-size: 26px;
+}
+.gradient span{
+  font-size: 0.5em;
+  position:relative;
+  bottom:4px;
 }
 .gradient h6{
   font-size:16px;
