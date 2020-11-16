@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-bonus.css">
   </head>
   <body>
+
     <!-- apro layout per due nav di sopra -->
-    <div class="nav-layout">
+    <div class="nav-layout w100">
     <!-- apro 2 contenitori principali,contenenti ciascuno 2 nav -->
      <div class="nav container clearfix">
        <nav class="fl">
@@ -29,6 +30,7 @@
        </nav>
      </div>
     </div>
+    <div class="w100">
      <div class="nav container clearfix">
       <nav class="fl">
        <img class="logo" src="img/logo.svg" alt="">
@@ -43,9 +45,10 @@
         </ul>
       </nav>
      </div>
+    </div>
      <!-- chiudo contenitori di nav -->
      <!-- apro header -->
-     <header>
+     <header class="w100">
        <div class="container">
      <!-- apro jumbotron -->
         <div class="jumbotron">
@@ -59,11 +62,12 @@
     <!-- chiudo header -->
      </header>
       <!-- apro l'header bottom vuoto celestino -->
-      <div class="header-bottom">
+      <div class="w100 header-bottom">
       </div>
       <!-- chiudo l'header bottom -->
       <!-- apro main -->
-      <main>
+
+      <main class="w100">
        <!-- apro contenitore rubik -->
         <div class="rubik container">
           <img src="img/cubo.png" alt="">
@@ -87,25 +91,18 @@
              <h3>Free Hubspot CRM</h3>
              <p>Everything you need to organize, track, and build better relationships with leads and customers.Yes,it's 100% free.Forever</p>
               <!-- in questa colonna vedo testo popular feature e hr li vedo come fluttuanti in un particular div -->
-             <div class="particular clearfix">
-               <div class="col-4 fl">
-               <h6>Popular feature</h6>
-               </div>
-               <div class="col-8 fl">
-                 <hr>
-               </div>
-             </div>
-             <!-- chiudo questo clearfix particolare -->
+             <h6 class="info-features">Popular feature</h6>
+           <!-- chiudo questo clearfix particolare -->
              <!-- aggiungo icone di check -->
-             <div>
+             <div class="span">
               <span><i class="fa fa-check-circle" aria-hidden="true"></i>Contact Insights</span><span><i class="fa fa-check-circle" aria-hidden="true"></i>Deals</span><span><i class="fa fa-check-circle" aria-hidden="true"></i>Task</span>
              </div>
+            </div>
              <!-- chiudo icone di check -->
            </div>
            <!-- chiudo colonna di dx -->
           </div>
           <!-- chiudo content -->
-        </div>
          <!-- chiudo contenitore content -->
          <!-- apro il contenitore hub con 3 colonne fluttuanti -->
         <div class="container clearfix hub">
@@ -147,8 +144,8 @@
           <!-- chiudo main -->
       </main>
       <!-- apro container con gradiente -->
-  <!-- NOTA: IN QUESTO ESEMPIO METTO INSIEME NEL CONTAINER CLEARFIX PURE LA SCRITTA  -->
-       <div class="gradient clearfix">
+      <div class="gradient w100">
+        <div class="container">
          <!-- apro contenitore testo sopra contenuto tabellato -->
         <div class="col-12">
          <h4>Learn and grow with award-winning support and a thriving community behind you</h4>
@@ -156,52 +153,56 @@
         </div>
         <!-- chiudo contenitore testo -->
         <!-- apro contenuto tabellato -->
+        <div class="container clearfix">
          <div class="col-3 fl">
           <img src="img/handshake.svg" alt="">
-          <h2>150+</h2>
+          <h2 class="plus">150</h2>
           <p>Hubspot user groups</p>
          </div>
          <div class="col-3 fl">
            <img src="img/hubspot-blogs.svg" alt="">
-          <h2>4.5M+</h2>
+          <h2 class="plus">4.5M</h2>
           <p>monthly visits</p>
          </div>
          <div class="col-3 fl">
            <img src="img/hubspot-academy.svg" alt="">
-          <h2>155K+</h2>
+          <h2 class="plus">155K</h2>
           <p>certified professionals</p>
          </div>
          <div class="col-3 fl">
            <img src="img/inbound.svg" alt="">
-          <h2>21K+</h2>
+          <h2 class="plus">21K</h2>
           <p>registered attendees</p>
          </div>
          <div class="col-3 fl">
            <img src="img/hubspot-connect.svg" alt="">
-          <h2>200+</h2>
+          <h2 class="plus">200</h2>
           <p>integrations</p>
          </div>
          <div class="col-3 fl">
            <img src="img/globe.svg" alt="">
-          <h2>6+</h2>
+          <h2 class="plus">6</h2>
           <p>languages</p>
          </div>
          <div class="col-3 fl">
            <img src="img/chat-text.svg" alt="">
-          <h2>2.6M+</h2>
+          <h2 class="plus">2.6M</h2>
           <p>social followers</p>
          </div>
          <div class="col-3 fl">
               <img src="img/growth-hub.svg" alt="">
-          <h2>5K+</h2>
+          <h2 class="plus">5K</h2>
           <p>profiles and counting</p>
+         </div>
         </div>
        <!-- chiudo contenuto tabellato-->
        </div>
-
+      <!-- chiudo container -->
+      </div>
     <!-- chiudo contenitore con gradiente -->
     <!-- apro contenitore sponsor -->
-    <div class="container clearfix sponsor">
+    <div class="w100 sponsor">
+      <div class="container clearfix">
       <div class="col-6 fl">
        <h2>64,500</h2>
        <p>Customers in over <strong>100</strong> countries growing their businesses with HubSpot</p>
@@ -210,9 +211,13 @@
         <img src="img/sponsor.png" alt="">
       </div>
     </div>
+  </div>
     <!-- chiudo contenitore sponsor -->
     <!-- apro contenitore con woman -->
-    <div class="container clearfix gettingstarted">
+    <div class="w100 gettingstarted">
+      <div class="container clearfix">
+
+
       <div class="col-6 fl">
        <h2>Start Growing With HubSpot Today</h2>
        <p>With tools to make every part of your process more human and a support team excited to help you ,getting started with inbound has never been easier.</p>
@@ -223,9 +228,10 @@
         <img class="woman" src="img/woman.webp" alt="">
       </div>
     </div>
+      </div>
     <!-- chiudo contenitore con woman -->
-    <footer>
-     <div class="container clearfix">
+    <div class="w100 footer">
+    <footer class="container clearfix">
        <!-- apro sezione alta footer con liste -->
        <div class="col-3 fl">
          <ul>
@@ -294,9 +300,9 @@
         </ul>
        </div>
        <!-- Chiudo sezione bassa footer -->
+     </footer>
      </div>
      <!-- chiudo container clearfix -->
-    </footer>
       <!-- chiudo footer -->
   </body>
 </html>
