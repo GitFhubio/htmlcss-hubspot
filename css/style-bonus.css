@@ -293,7 +293,7 @@ color:#fff;
 
 }
 /* modo originale di fare il più centrato */
-/* trasformo l'h2 in table che centro con margin left/right auto,il plus figlio
+/* trasformo l'h2 in table che centro con margin left/right auto,il plus after-figlio
 lo trasformo in table cell e gli do il vertical align middle */
 .gradient h2{
   line-height: 50px;
@@ -357,7 +357,6 @@ main i{
 main .col-2 h6{
   padding-left: 15px;
 }
-
 .gradient img{
   padding-top: 10px;
   font-size: 30px;
@@ -365,7 +364,6 @@ main .col-2 h6{
 .gradient h4{
   font-size:28px;
 }
-
 .gradient h6{
   font-size:16px;
   padding-bottom: 20px;
@@ -450,6 +448,3 @@ margin-top:20px;
    height: 50px;
   filter: invert(100%);
 }
-
-/* Riflessioni finali:scrivendo classi di stile all'inizio avrei evitato ripetizioni nel codice
-il css è compattabile ma per come ho scritto il codice html evito di fare guai */
