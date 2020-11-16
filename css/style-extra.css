@@ -95,5 +95,6 @@ h3{
   float:left;
 }
 
-/* la furbata è mettere nel content il testo e il più che flotta alla sx del più
+/* ho messo nel content il testo e il più che flotta alla sx del più
 (se mettessi nel content il più e float right me lo manderebbe in fondo a dx) */
+/* però così poi devo creare otto classi per ogni testo diverso */
