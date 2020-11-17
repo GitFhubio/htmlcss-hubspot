@@ -77,7 +77,7 @@ header{
   background-position:top right;
 }
  nav{
-  height:50px;
+  height:75px;
 }
 .gettingstarted img{
   width:250px;
@@ -113,7 +113,6 @@ margin-left:10px;
   }
   .nav.container.clearfix:nth-child(1),.nav.container.clearfix:nth-child(2){
     line-height: 75px;
-    height:75px;
   }
   .jumbotron p,.gettingstarted p{
     margin-top: 30px;
@@ -303,10 +302,17 @@ lo trasformo in table cell e gli do il vertical align middle */
 .sponsor{
 margin-top:20px;
 }
+.sponsor .col-3{
+  height:65px;
+  position:relative;
+}
 .sponsor img{
-  padding-left:10px;
-  width:600px;
+  position:absolute;
+  width:130px;
   height:auto;
+  top:50%;
+  transform:translate(0,-50%);
+
 }
 .sponsor h2{
   font-size:50px;
@@ -317,6 +323,7 @@ line-height:170%;
 font-size: 22px;
 }
 .sponsor .col-6:nth-child(2){
+  margin-top: 30px;
   padding-left:0px;
 }
 .sponsor .col-6:nth-child(1){
