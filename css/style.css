@@ -98,7 +98,6 @@ margin-left:10px;
 }
 
 .navup-layout{
-  height:75px;
   border-bottom:3px solid grey;
   background-color:rgb(241,247,251);}
 
@@ -307,8 +306,9 @@ margin-top:20px;
   position:absolute;
   width:130px;
   height:auto;
+  left:50%;
   top:50%;
-  transform:translate(0,-50%);
+  transform:translate(-50%,-50%);
 
 }
 .sponsor h2{
