@@ -298,17 +298,10 @@ lo trasformo in table cell e gli do il vertical align middle */
 .sponsor{
 margin-top:20px;
 }
-.sponsor .col-3{
-  height:65px;
-  position:relative;
-}
 .sponsor img{
-  position:absolute;
   width:130px;
   height:auto;
-  left:50%;
-  top:50%;
-  transform:translate(-50%,-50%);
+  vertical-align: middle;
 
 }
 .sponsor h2{
@@ -320,7 +313,7 @@ line-height:170%;
 font-size: 22px;
 }
 .sponsor .col-6:nth-child(2){
-  margin-top: 30px;
+  margin-top: 40px;
   padding-left:0px;
 }
 .sponsor .col-6:nth-child(1){
@@ -343,7 +336,7 @@ font-size: 22px;
 }
 .gettingstarted .woman{
 width: auto;
-height: 400px;
+height: 450px;
 position:absolute;
 right:0;
 }
